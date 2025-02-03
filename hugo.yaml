@@ -2,3 +2,26 @@ baseURL: https://example.org/
 languageCode: en-us
 title: Henrik's Blog
 theme: ["PaperMod"]
+
+params:
+  # Enable search functionality
+  ShowSearchButton: true
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
