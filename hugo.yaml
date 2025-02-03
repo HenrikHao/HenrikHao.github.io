@@ -8,8 +8,11 @@ params:
   ShowSearchButton: true
   homeInfoParams:
     Title: "Welcome to Henrik's Blog"
-    Content: "Your welcome message here"
+    Content: "Hi, I'm Henrik. I'm a software engineer and I'm building this blog to share my thoughts and ideas."
   ShowAllPosts: true    # Shows all posts on homepage
+  socialIcons:
+    - name: GitHub
+      url: https://github.com/HenrikHao
 
 
 menu:
