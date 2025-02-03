@@ -6,6 +6,11 @@ theme: ["PaperMod"]
 params:
   # Enable search functionality
   ShowSearchButton: true
+  homeInfoParams:
+    Title: "Welcome to Henrik's Blog"
+    Content: "Your welcome message here"
+  ShowAllPosts: true    # Shows all posts on homepage
+
 
 menu:
   main:
